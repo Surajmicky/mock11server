@@ -1,7 +1,7 @@
 const express = require('express');
-const connect= require('./utils/db');
-const signuprouter= require('./controllers/signup.controller');
-const signinrouter= require('./controllers/signin.controller')
+const connect= require('./src/utils/db');
+const signuprouter= require('./src/controllers/signup.controller');
+const signinrouter= require('./src/controllers/signin.controller')
 const app = express();
 
 app.use(express.json());
